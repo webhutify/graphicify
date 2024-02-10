@@ -1,0 +1,35 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#services{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#services::before {
+    height: 471px;}
+    
+#services p{
+    font-size: 13px;
+}
+#work{
+    flex-direction: column;
+}
+
+#work .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}

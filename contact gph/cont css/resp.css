@@ -1,0 +1,30 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#contact{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#contact::before {
+    height: 471px;}
+    
+#contact p{
+    font-size: 13px;
+}
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
